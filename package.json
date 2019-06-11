@@ -1,0 +1,16 @@
+{
+  "name": "husky-talisman",
+  "version": "1.0.0",
+  "description": "Configuration of Husky and Talisman",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "talisman",
+    "husky",
+    "configurations"
+  ],
+  "author": "",
+  "license": "ISC"
+}
