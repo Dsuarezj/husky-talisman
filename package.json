@@ -4,7 +4,8 @@
   "description": "Configuration of Husky and Talisman",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "./node_modules/.bin/eslint ./syntax --ext .js --ext .jsx --cache"
   },
   "keywords": [
     "talisman",
@@ -12,5 +13,17 @@
     "configurations"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "$TALISMAN_HOME/talisman_hook_script pre-commit && lint-staged"
+    }
+  }
 }
