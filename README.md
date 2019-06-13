@@ -1,4 +1,4 @@
-##Configurar Lint & Talisman Hook
+## Configurar Lint & Talisman Hook
 
 La intención de este repo es crear una receta para añadir _hooks_ a git. 
 
@@ -10,7 +10,7 @@ La intención de este repo es crear una receta para añadir _hooks_ a git.
 - [Husky](https://github.com/typicode/husky/blob/master/DOCS.md): Herramienta para correr un asociar un script a un hook de git
 
 
-###Pasos
+### Pasos
 
 1. Crear una nueva carpeta e iniciar git y npm:
  
